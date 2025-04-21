@@ -49,10 +49,15 @@ Tipai (kuri funkcija yra „u“, kuri „v“):
 
 == Kreivinės trapecijos
 
-2D figūros plotui: #h(2.25cm) $S = integral_a^b y dx $
+2D figūros plotui: #h(0.25cm) $S = integral_a^b y dx $
 
+Čia, turbūt, reikės braižyti parabolę, taigi 
+#image(width: 40%, "paraboles-piesimas.png")
+
+_Kontrolinyje nebus:_
+#v(-0.5em)
 kai persmeigtas per x ašį: #h(1cm) $ V_x = pi integral_a^b y^2 dx$ #h(1cm) (tada reikės, pvz.: $y = 1 + 2 x + x^3$)
-
+#v(-0.5em)
 kai persmeigtas per y ašį: #h(1cm) $ V_y = pi integral_a^b x^2 dx$ #h(1cm) (tada reikės, pvz.: $x = 1 + 2 y + y^3$)
 
 #v(1cm)
