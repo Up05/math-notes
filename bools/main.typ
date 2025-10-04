@@ -213,7 +213,7 @@ Taigi:
 1. Gavus uždavinį, kaip, pavyzdžiui: \
 $f(x, y) = overline(x arrow.b (overline(x) xor y) ir y) <=> x ir overline(y)$
 
-Jį reikia paversti į RPN (Reverse Polish Notation) pradedant nuo operatoriaus su didžiausia pirmenybe:
+Jį reikia paversti į RPN (Reverse Polish Notation) pradedant nuo operatoriaus su didžiausia pirmenybe ir baigiant mažiausia:
 
 $#text(red)[$f(x, y) =$] x ms not ms y xor y ir x arrow.b not ms x ms y ms not ms \& <=> $ \
 
@@ -232,7 +232,7 @@ $(((((((x ms not) ms y xor) y ms \&) x arrow.b) not) ms (x ms (y ms not) ms \&) 
 #v(-1em)
 #h(15.66em) ^ panaudotas $<=>$
 
-_Sąsiūvinyje aš paskiriu vieną/du langelius kintamajam (ir, jei noriu, perrašiau reikšmes) ir vieną langelį operatoriui, ten lentelės atrodo geriau._
+_Sąsiūvinyje aš paskiriu vieną/du langelius kintamajam (ir, jei noriu, perrašau reikšmes) ir vieną langelį operatoriui. Ten lentelės atrodo geriau._
 
 
 
